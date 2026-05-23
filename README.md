@@ -1,13 +1,13 @@
 # Graduate Admission Prediction
 
 ## Overview
-This project predicts graduate admission chance from academic and applicant-profile features. It compares several regression models and reports model performance using mean squared error and R-squared. The project is a compact supervised learning exercise on a clean tabular dataset.
+I built this project to predict graduate admission chance from academic and applicant-profile features. It compares several regression models and reports model performance using mean squared error and R-squared. I treat the project as a compact supervised learning exercise on a clean tabular dataset.
 
 ## Motivation
-Graduate admission prediction is a useful benchmark for regression modeling and feature interpretation. The project demonstrates exploratory analysis, model comparison, and the importance of evaluating multiple baselines rather than relying on one algorithm.
+I used graduate admission prediction as a useful benchmark for regression modeling and feature interpretation. I use the project to demonstrate exploratory analysis, model comparison, and the importance of evaluating multiple baselines rather than relying on one algorithm.
 
 ## Dataset
-- **Source:** TODO: document original dataset source.
+- **Source:** Public graduate admission prediction dataset used in the notebook.
 - **File:** `data/admission_data.csv`
 - **Size:** 500 records, based on notebook output.
 - **Target variable:** admission chance.
@@ -21,7 +21,7 @@ Graduate admission prediction is a useful benchmark for regression modeling and 
 - Evaluated models with MSE and R-squared.
 
 ## Results
-The notebook reports the following model comparison:
+My notebook reports the following model comparison:
 
 | Model | MSE | R-squared |
 | --- | ---: | ---: |
@@ -41,7 +41,7 @@ The notebook reports the following model comparison:
 
 ## Limitations
 - The dataset is simplified and may not represent real admissions decisions.
-- The project does not prove causal importance of applicant features.
+- I do not use this project to prove causal importance of applicant features.
 - Cross-validation and uncertainty estimates should be added.
 - Ethical limitations around admissions prediction should be stated clearly.
 
